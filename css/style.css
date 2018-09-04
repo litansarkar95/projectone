@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+header,section,article,div,aside,footer{
+	display: block;
+}
+.container{
+	width: 1200px;
+	margin: 0px auto;
+}
+/**   Header  ********/
+header{
+	background-color: green;
+}
+.header-logo{
+	width: 300px;
+	float: left;
+	height:90px;
+	
+	overflow: hidden;
+}
+.header-logo img{
+	width: 200px;
+	margin-top:10px;
+	margin-left: 100px;
+	text-align: center;
+	border-radius: 2%;
+	height:60px;
+}
+.navbar{
+	width: 900px;
+	float: right;
+
+}
+.navbar ul{
+	
+	float: right;
+	margin-right: 150px;
+
+}
+
+.navbar ul li{
+	float: left;
+margin:20px 10px;
+font-size: 30px;
+}
+.navbar ul li a{
+text-decoration: none;
+color: red;
+}
+.clear{
+	clear: both;
+}
+
+.section-side{
+	margin: 20px 0px;
+}
+.left-side{
+	width: 800px;
+	float:left;
+}
+.left-side h2{
+	text-align: center;
+	background-color: red;
+	padding: 3PX;
+	margin: 20px 0px;
+	font-size: 24px;
+}
+.left-side p{
+	margin: 15px 0px;
+}
+/***              right-side   *********/
+
+.right-side{
+	width: 350px;
+	float:left;
+	margin-left: 50px;
+	margin-top:20px;
+}
+.right-side h3{
+	background-color: green;
+
+}
+.right-side-media {
+	margin-bottom: 30px;
+
+}
+.right-side-media ul li{
+	
+	margin: 10px 0px;
+}
+.right-side-service h3{
+	font-size:30px;
+	text-align: center;
+}
+.right-side-service p{
+	margin: 10px 0px;
+	font-size: 25px;
+}
+.right-side-service p:nth-child(even) {
+    background: red;
+}
+.footer{
+	clear: both;
+	background-color: black;
+	color: white;
+	padding: 10px;
+	font-size: 26px;
+	text-align: center;
+	margin-bottom: 30px;
+}
